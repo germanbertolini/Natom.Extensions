@@ -1,0 +1,39 @@
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+#Nuget packages folder
+packages/
+/_db/Natom.AccessMonitor.DbConfig/Natom.AccessMonitor.DbConfig.dbmdl
+/_db/Natom.AccessMonitor.DbConfig/Natom.AccessMonitor.DbConfig.jfm
+/_db/Natom.AccessMonitor.DbLogs/Natom.AccessMonitor.DbLogs.dbmdl
+/_db/Natom.AccessMonitor.DbLogs/Natom.AccessMonitor.DbLogs.jfm
+/_db/Natom.AccessMonitor.DbMaster/Natom.AccessMonitor.DbMaster.dbmdl
+/_db/Natom.AccessMonitor.DbMaster/Natom.AccessMonitor.DbMaster.jfm
+/_db/Natom.AccessMonitor.DbSecurity/Natom.AccessMonitor.DbSecurity.dbmdl
+/_db/Natom.AccessMonitor.DbSecurity/Natom.AccessMonitor.DbSecurity.jfm
