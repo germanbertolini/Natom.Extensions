@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Natom.Extensions.Mailer.Services;
 
-namespace Natom.AccessMonitor.Extensions
+namespace Natom.Extensions
 {
     public static class StartupExtensions
     {

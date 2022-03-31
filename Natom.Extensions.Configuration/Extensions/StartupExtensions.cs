@@ -3,7 +3,7 @@ using Natom.Extensions.Configuration.PackageConfig;
 using Natom.Extensions.Configuration.HostedServices;
 using Natom.Extensions.Configuration.Services;
 
-namespace Natom.AccessMonitor.Extensions
+namespace Natom.Extensions
 {
     public static class StartupExtensions
     {

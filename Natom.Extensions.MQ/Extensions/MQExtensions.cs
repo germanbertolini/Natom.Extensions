@@ -5,7 +5,7 @@ using Natom.Extensions.MQ.Services;
 using System;
 using System.Collections.Generic;
 
-namespace Natom.AccessMonitor.Extensions
+namespace Natom.Extensions
 {
     public static class MQExtensions
     {

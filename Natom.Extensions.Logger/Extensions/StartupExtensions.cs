@@ -4,7 +4,7 @@ using Natom.Extensions.Logger.HostedServices;
 using Natom.Extensions.Logger.Services;
 using Natom.Extensions.Logger.Entities;
 
-namespace Natom.AccessMonitor.Extensions
+namespace Natom.Extensions
 {
     public static class StartupExtensions
     {

@@ -14,7 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Natom.AccessMonitor.Extensions
+namespace Natom.Extensions
 {
     public static class StartupExtensions
     {

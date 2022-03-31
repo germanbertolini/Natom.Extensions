@@ -9,6 +9,8 @@
     <Copyright>2022</Copyright>
     <PackageProjectUrl>https://natom.com.ar/</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
+    <Version>1.0.1</Version>
+    <Description>Servicio singleton para proveer la configuración de la aplicación</Description>
   </PropertyGroup>
 
   <ItemGroup>
