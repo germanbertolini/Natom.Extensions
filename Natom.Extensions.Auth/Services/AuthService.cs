@@ -253,5 +253,8 @@ namespace Natom.Extensions.Auth.Services
 
             return accessTokenWithPermissions;
         }
+
+        public Task<List<Usuario>> ListUsersByIds(List<int> ids)
+                    => new UsuarioRepository(_serviceProvider).ObtenerUsuariosPorIdsAsync(ids);
     }
 }

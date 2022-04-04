@@ -129,6 +129,18 @@ namespace Natom.Extensions.Auth.Repository
             return user;
         }
 
+        public async Task<List<Usuario>> ObtenerUsuariosPorIdsAsync(List<int> usuariosIds)
+        {
+            var usuarios = new List<Usuario>();
+            using (var db = new SqlConnection(_connectionString))
+            {
+                var sql = "EXEC [dbo].[sp_usuarios_select_by_multiples_ids] @UsuariosIds";
+                var _params = new { UsuariosIds = usuariosIds.Select(p => new { ID = p }).AsTableValuedParameter("dbo.ID_int_list", new[] { "ID" }) };
+                usuarios = (await db.QueryAsync<Usuario>(sql, _params)).ToList();
+            }
+            return usuarios;
+        }
+
         private async Task<Usuario> GuardarNewUsuarioAsync(string scope, Usuario user, string secretConfirmation, int byUserId)
         {
             using (var db = new SqlConnection(_connectionString))
